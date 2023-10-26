@@ -36,5 +36,5 @@ metadata:
 rules:
 - apiGroups: ["rbac.authorization.k8s.io"]
   resources: ["clusterrolebindings", "rolebindings"]
-  verbs: ["delete"]
+  verbs: ["list", "delete"]
 ```
